@@ -1,0 +1,35 @@
+.app-container {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-present { background-color: #d4edda; border: 1px solid green; }
+.btn-absent { background-color: #f8d7da; border: 1px solid red; }
+.btn-reset { background-color: #333; color: white; padding: 10px 20px; }
+
+/* Status Colors */
+.status-Present { color: green; font-weight: bold; }
+.status-Absent { color: red; font-weight: bold; }
+.status-Pending { color: gray; font-style: italic; }
